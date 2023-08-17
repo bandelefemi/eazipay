@@ -219,3 +219,71 @@ export const chatData = [
     },
     
   ]
+
+
+  export const employeeData = [
+    {
+        name: 'Caleb Nwafor',
+        position: 'accountant',
+        gender: 'female',
+        term: 'monthly',
+        amount: '250,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: false
+    },
+    {
+        name: 'Wasiu Tiamiyu',
+        position: 'product designer',
+        gender: 'male',
+        term: 'monthly',
+        amount: '550,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: false
+    },
+    {
+        name: 'toyin faleke',
+        position: 'product manager',
+        gender: 'female',
+        term: 'monthly',
+        amount: '700,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: true
+    },
+    {
+        name: 'Ada Okorie',
+        position: 'customer service',
+        gender: 'female',
+        term: 'monthly',
+        amount: '150,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: true
+    },
+    {
+        name: 'Bolade Ifedayo',
+        position: 'data analyst',
+        gender: 'female',
+        term: 'monthly',
+        amount: '250,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: false
+    },
+    {
+        name: 'Femi Bandele',
+        position: 'software engineer',
+        gender: 'male',
+        term: 'monthly',
+        amount: '850,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: false
+    },
+    {
+        name: 'Jide Sanwo Olu',
+        position: 'intern',
+        gender: 'male',
+        term: 'monthly',
+        amount: '50,600.78',
+        icon: '/assets/mobile/caleb.svg',
+        isSelected: true
+    },
+    
+  ]

@@ -7,7 +7,7 @@ const MobileDashboard = () => {
     <div className=' px-5 py-10 bg-white h-full'>
 
         {/* navigation */}
-        <div className=' fixed bottom-0 w-full left-0 shadow-xl'>
+        <div className=' fixed bottom-0 w-full left-0'>
             <MobileNav />
         </div>
 
@@ -75,7 +75,7 @@ const MobileDashboard = () => {
             </p>
 
             {/* actions panel */}
-            <div className=''>
+            <div className=' mb-16'>
 
                 <div className=' w-full grid grid-cols-3 gap-4 items-center px-3 py-5 border rounded-2xl mt-4'>
                     {
