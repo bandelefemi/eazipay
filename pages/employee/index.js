@@ -55,17 +55,28 @@ const Employee = () => {
 
             {/* search / filter */}
             <div className=' mt-7 flex w-full justify-between'>
-                <div className=' w-[80%] flex items-center justify-between border border-black/60 p-3 rounded-2xl'>
+                <div className=' w-[85%] flex items-center justify-between border border-black/40 px-5 py-2 rounded-2xl'>
                     <input type="text" placeholder='Search' className=' text-gray-500 outline-none' />
                     <img src="/assets/dashboard/magnifier.svg" alt="" />
                 </div>
-                <div className=' bg-[#e7e8e7] px-3 flex items-center justify-center rounded-xl'>
+                <div className=' bg-[#e7e8e7] px-2 flex items-center justify-center rounded-xl'>
                     <img src="/assets/mobile/filter.svg" alt="" className=' w-6' />
                 </div>
             </div>
 
 
             {/* sort icons */}
+            <div className=' flex justify-between mt-8 text-gray-400'>
+                <div className=' flex gap-2 items-center'>
+                    <img src="/assets/mobile/list.svg" alt="" className=' border-r pr-3' />
+                    <img src="/assets/mobile/grid.svg" alt="" className=' border-r pr-3' />
+                    <p >Archived</p>
+                </div>
+                <div className=' flex gap-3'>
+                    <img src="/assets/mobile/select.svg" alt="" />
+                    <p>Select All</p>
+                </div>
+            </div>
 
 
             {/* employee list */}
