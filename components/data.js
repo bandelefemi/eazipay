@@ -287,3 +287,30 @@ export const chatData = [
     },
     
   ]
+
+
+  export const landingCards = [
+    {
+        title: 'Tamper-proof Payroll for LIfe',
+        points: {
+            a: "Your staff payroll history is kept in one place forever.",
+            b: "No more excel sheet or manual records.",
+            c: "Download your payroll history anytime you need it."
+        }
+    },
+    {
+        title: 'All Payroll, Anytime Anywhere',
+        points: {
+            a: "Your staff payroll history is kept in one place forever.",
+            b: "Whether it is Taxes, Pension insurances HMOs, trustfunds, Eazipay handle all your compliances in one place and easily, in seconds!",
+        }
+    },
+    {
+        title: 'Payroll in Seconds',
+        points: {
+            a: "Never again will you spend more than 2 minutes on payroll.",
+            b: "Just click on your staff and bulk-pay them at once.",
+            c: "Payment is done permanently."
+        }
+    }
+  ]

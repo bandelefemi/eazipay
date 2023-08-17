@@ -2,7 +2,7 @@ import React from 'react'
 
 const Profile = () => {
   return (
-    <div>
+    <div className=' md:hidden'>
 
         {/* title bar */}
         <div className=' py-5 px-4 flex border-b items-center justify-between'>
@@ -166,7 +166,7 @@ const Profile = () => {
                         <legend className='ml-1 px-3 text-gray-400 capitalize'>
                             website
                         </legend>
-                        <input type="text" placeholder='www.customerwebsite.com' name="" id="" className=' placeholder:text-gray-600' />
+                        <input type="text" placeholder='www.website.com' name="" id="" className=' placeholder:text-gray-600' />
                     </fieldset>
 
 
