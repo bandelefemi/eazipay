@@ -9,7 +9,9 @@ module.exports = {
         'wallet-bg': "url('/assets/backgrounds/walletbg.svg')",
         'landing-top': "url('/assets/backgrounds/landingtop.svg')",
         'wave-middle': "url('/assets/backgrounds/wave.svg')",
-
+        'how-it-works': "url('/assets/landing/BG.svg')",
+        'free-forever': "url('/assets/landing/free.svg')",
+        'contact-bg': "url('/assets/landing/contactbg.svg')",
       }
     },
   },

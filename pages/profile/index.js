@@ -1,8 +1,16 @@
+import Head from 'next/head'
 import React from 'react'
 
 const Profile = () => {
   return (
     <div className=' md:hidden'>
+
+        <Head>
+            <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+            <title>
+                Eazipay - profile
+            </title>
+        </Head>
 
         {/* title bar */}
         <div className=' py-5 px-4 flex border-b items-center justify-between'>

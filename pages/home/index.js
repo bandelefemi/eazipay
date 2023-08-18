@@ -1,7 +1,11 @@
 import React from 'react'
-import Navbar from '../../components/landing/navbar/Navbar'
 import Head from 'next/head'
-import { landingCards } from '../../components/data'
+import Footer from '../../components/landing/footer/Footer'
+import Contact from '../../components/landing/contact/Contact'
+import Hero from '../../components/landing/hero/Hero'
+import Cards from '../../components/landing/cards/Cards'
+import Infographic from '../../components/landing/infographic/Infographic'
+import Free from '../../components/landing/free/Free'
 
 const Home = () => {
   return (
@@ -15,99 +19,30 @@ const Home = () => {
         </Head>
 
         {/* top section */}
-        <div className=' bg-landing-top h-screen bg-cover'>
-            <Navbar />
-
-            <div className='flex  flex-col justify-center -mt-16 h-full px-20'>
-
-                {/* hero text */}
-                <div className=' text-5xl' style={{ fontFamily: "DM Serif Text"}}>
-                    <span className=' text-[#292a29]'>Run your</span>
-                    <span className=' text-[#11453b]'> payroll</span>
-                    <br />
-                    <span className=' text-[#b4a572]'>easily</span>
-                    <span className=' text-[#292a29]'> in</span>
-                    <span className=' text-[#ed4b4d]'> seconds</span>
-                </div>
-                <p className=' w-1/2 text-gray-500 mt-7'>
-                    We’ve built an all-inclusive simple solution for <br /> individual  and businesses to manage staff, <br />pay salaries, bills, and relevant taxes all at once.
-                </p>
-
-                {/* button */}
-                <p className='w-[30%] text-sm flex text-white justify-center rounded-3xl mt-6 py-3 bg-[#11453b]'>
-                    Start Using Free, Forever
-                </p>
-
-                {/* download buttons */}
-                <div className=' flex flex-col mt-12'>
-                    <p className=' text-sm'>
-                        Download the Eazipay App
-                    </p>
-                    <div className=' flex -mt-4'>
-                        <img src="/assets/landing/appstore.svg" alt="" className='w-48 -ml-8 cursor-pointer' />
-                        <img src="/assets/landing/playstore.svg" alt="" className='w-48 -ml-12 cursor-pointer' />
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Hero />
 
         {/* middle section */}
-        <div className=' bg-wave-middle h-screen bg-cover flex flex-col justify-center -mt-12 items-center'>
-            <div >
-                <p className=' text-3xl text-[#11453b]' style={{fontFamily: 'DM Serif Text'}}>
-                    For Individuals and Businesses
-                </p>
-                <p className=' text-xs text-center mt-2 text-gray-600'>
-                    Join 200+ businesses using Eazipay's easy solution. 
-                </p>
-            </div>
-
-            {/* cards */}
-            <div className='w-full px-20 mt-10 flex'>
-                {
-                    landingCards.map((item, index) => (
-                        <div className='card flex-1  ' style={{
-                            
-                            background: 'radial-gradient(50% 50% at 50% 50%,rgba(217,235,205,.14) 0,rgba(217,235,205,.0266) 100%),#11453b',
-                            boxShadow: '0 13px 20px hsla(0,0%,9%,.2), -11px 0 19px hsla(0,0%,9%,.3)',
-                            color: '#fff',
-                            padding: '30px',
-                            transition: '.45s cubic-bezier(.175,.585,.32,1.2075)',
-                            height: ''
-}
-                        }>
-                            <div className=' flex flex-col gap-3 text-xs'>
-                                <p className=' font-semibold text-lg mb-2'>
-                                    {item.title}
-                                </p>
-                                <p>
-                                    {item.points.a}
-                                </p>
-                                <p>{item.points.b}</p>
-                                <p>{item.points.c}</p>
-                            </div>
-                        </div>
-                    ))
-                }
-
-            </div>
-            {/* end of cards */}
-
-            <div className=' mt-8 text-sm text-center text-gray-600'>
-                <p>
-                    We are happy to answer your queries. Please, reach us at <br /> 
-                    <span className=' text-red-400'>
-                        hello@myeazipay.com 
-                    </span> 
-                     &nbsp;and expect our response shortly after.
-                </p>
-                
-            </div>
-        </div>
+        <Cards />
         {/* end of middle section */}
 
 
         {/* how it works */}
+        <Infographic />
+        {/* end of how it works */}
+
+
+        {/* free forever */}
+        <Free />
+        {/* end of free forever */}
+
+        
+        {/* contact section */}
+        <Contact />
+        {/* end of contact section */}
+
+
+        {/* footer section */}
+        <Footer />
     </div>
   )
 }

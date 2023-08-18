@@ -2,12 +2,23 @@ import React from 'react'
 import { employeeData } from '../../components/data'
 import MobileNav from '../../components/mobile/nav/MobileNav'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 const Employee = () => {
 
     const router = useRouter()
   return (
     <div className=' md:hidden'>
+
+        <Head>
+            <title>
+                Eazipay - Team
+            </title>
+        </Head>
+
+        <div className=' bg-[#11453b] inline-block p-4  rounded-full shadow-lg fixed right-4 top-[50%]'>
+            <img src="/assets/mobile/add.svg" alt="" />
+        </div>
 
         {/* bottom nav */}
         <div className=' fixed bottom-0 w-full z-30'>
