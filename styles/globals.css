@@ -52,7 +52,7 @@
       }
 
       .footer-social>div {
-        @apply bg-[#f2f1f1] p-[6px] text-neutral-600 rounded-full
+        @apply bg-[#f2f1f1] cursor-pointer p-[6px] text-neutral-600 rounded-full
       }
 
       .site-map>p {

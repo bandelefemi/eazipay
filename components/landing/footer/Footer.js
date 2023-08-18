@@ -20,13 +20,13 @@ const Footer = () => {
                 </div>
                 <div className=' flex footer-social items-center'>
                     <div>
-                        <AiOutlineInstagram size={20} />
+                        <AiOutlineInstagram size={17} />
                     </div>
                     <div>
-                        <AiOutlineTwitter size={20} />
+                        <AiOutlineTwitter size={17} />
                     </div>
                     <div>
-                        <FaLinkedinIn size={20} />
+                        <FaLinkedinIn size={17} />
                     </div>
                     <div>
                         <FaFacebookF size={16} />
