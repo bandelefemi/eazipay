@@ -8,12 +8,12 @@ const Navbar = () => {
           <div className=' flex items-center gap-10'>
 
             <div className='cursor-pointer'>
-              <img src="/assets/navicons/notify.png" alt="notifications" className='' />
+              <img src="/assets/navicons/notify.svg" alt="notifications" className='' />
             </div>
 
             <div className='flex items-center cursor-pointer'>
               <div>
-                <img src="/assets/navicons/kalu.png" alt=" profile picture" className='w-[80%]' />
+                <img src="/assets/navicons/kalu.svg" alt=" profile picture" className='w-[80%]' />
               </div>
               <div>
                 <p className='font-semibold'>Kalu Abasiama</p>
@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
 
             <div className='flex items-end h-full -ml-5 cursor-pointer'>
-              <img src="/assets/navicons/arrowright.png" alt="" />
+              <img src="/assets/navicons/arrowright.svg" alt="" />
             </div>
           </div>
         </div>
