@@ -7,9 +7,9 @@ const Layout = ({children}) => {
     <div className=' h-full w-full flex'>
         
       
-        <Sidebar />
+          <Sidebar />
         
-        <div className=' relative w-full h-screen overflow-y-scroll'>
+        <div className=' w-full h-screen overflow-y-scroll'>
             <Navbar />
             <div className=' w-full h-full'>
                 {children}
