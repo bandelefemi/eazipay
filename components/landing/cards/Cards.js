@@ -1,5 +1,6 @@
 import React from 'react'
 import { landingCards } from '../../data'
+import Link from 'next/link'
 
 const Cards = () => {
   return (
@@ -46,8 +47,10 @@ const Cards = () => {
             <div className=' mt-8 text-sm text-center text-gray-600'>
                 <p>
                     We are happy to answer your queries. Please, reach us at <br /> 
-                    <span className=' text-red-400'>
-                        hello@myeazipay.com 
+                    <span className=' cursor-pointer text-red-400'>
+                        <Link href={'mailto:hello@myeazipay.com'}>
+                            hello@myeazipay.com
+                        </Link> 
                     </span> 
                      &nbsp;and expect our response shortly after.
                 </p>

@@ -56,11 +56,20 @@
       }
 
       .site-map>p {
-        @apply  mb-4 
+        @apply  mb-4
       }
 
       .site-map>ul {
         @apply flex flex-col gap-2 text-sm font-light text-neutral-600
+      }
+
+      .site-map>ul>li {
+        cursor: pointer;
+        display: inline-block;
+      }
+
+      .nav-ul>li {
+        @apply cursor-pointer
       }
 }
 

@@ -8,12 +8,12 @@ const Navbar = () => {
           <div className=' flex items-center gap-10'>
 
             <div className='cursor-pointer'>
-              <img src="/assets/navicons/notify.svg" alt="" />
+              <img src="/assets/navicons/notify.svg" alt="notifications" className=' bg-gray-100 rounded-full' />
             </div>
 
             <div className='flex items-center cursor-pointer'>
               <div>
-                <img src="/assets/navicons/kalu.svg" alt="" className='w-[80%]' />
+                <img src="/assets/navicons/kalu.svg" alt=" profile picture" className='w-[80%] bg-gray-100 rounded-full' />
               </div>
               <div>
                 <p className='font-semibold'>Kalu Abasiama</p>

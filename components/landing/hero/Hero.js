@@ -22,7 +22,7 @@ const Hero = () => {
                 </p>
 
                 {/* button */}
-                <p className='w-[30%] text-sm flex text-white justify-center rounded-3xl mt-6 py-3 bg-[#11453b]'>
+                <p className='w-[30%] cursor-pointer text-sm flex text-white justify-center rounded-3xl mt-6 py-3 bg-[#11453b]'>
                     Start Using Free, Forever
                 </p>
 

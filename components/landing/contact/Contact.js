@@ -25,10 +25,10 @@ const Contact = () => {
                     </p>
 
                     <div className=' flex gap-2 border p-1 mt-3 rounded-xl w-full'>
-                        <p className=' flex-1 bg-[#11453b] rounded-lg p-1 text-white text-sm'>
+                        <p className=' cursor-pointer flex-1 bg-[#11453b] rounded-lg p-1 text-white text-sm'>
                             Individual
                         </p>
-                        <p className=' flex-1 bg-[#f2f1f1] rounded-lg p-1 text-neutral-600 text-sm'>
+                        <p className=' cursor-pointer flex-1 bg-[#f2f1f1] rounded-lg p-1 text-neutral-600 text-sm'>
                             Company
                         </p>
                     </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
 
                     {/* button */}
-                    <p className=' bg-[#11453b] w-full rounded-2xl p-2 text-xs text-white'>
+                    <p className=' cursor-pointer bg-[#11453b] w-full rounded-2xl p-2 text-xs text-white'>
                         Request Demo
                     </p>
                 </div>
