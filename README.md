@@ -41,7 +41,7 @@ While, the Profile and Employee page is built for only mobile screens
 
 ## Production
 
-The project was deployed on [Netlify Platform](https://netlify.app)
+The project was deployed on [Netlify Platform](https://eazipay-test-bandelefemi.netlify.app)
 
 
 #### Should you have any questions?
