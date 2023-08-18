@@ -6,6 +6,8 @@ const Navbar = () => {
     <div className=' hidden md:block bg-white sticky top-0 p-2 w-full z-30'>
         <div className=' flex px-4 items-center justify-between'>
           <img src="/assets/logo/logo-c.svg" alt="" className=' h-10' />
+          <Image src="/assets/navicons/notify.svg" width={30} height={30} alt="notifications" className='' />
+
           <div className=' flex items-center gap-10'>
 
             <div className='cursor-pointer'>

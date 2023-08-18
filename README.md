@@ -34,7 +34,10 @@ While, the Profile and Employee page is built for only mobile screens
 - [Material UI - Charts](https://mui.com) - learn about Next.js features and API.
 - [Tailwind CSS](https://tailwindcss.com/) - an interactive Next.js tutorial.
 
-
+### Issues
+```diff
+- The SVG files on the navbar component does on render on vercel
+```
 
 ## Production
 
