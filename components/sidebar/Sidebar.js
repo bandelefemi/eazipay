@@ -36,7 +36,7 @@ const Sidebar = () => {
                                 <p className=' flex w-full capitalize items-center justify-between'>
                                     {item.title}
                                 <span className=' flex self-end'>
-                                    <img src="/assets/navicons/arrowdown.svg" alt="" />
+                                    {item.sub && <img src="/assets/navicons/arrowdown.svg" alt="" />}
                                 </span>
                                 </p>
                             </li>
@@ -57,7 +57,7 @@ const Sidebar = () => {
                                 <p className=' flex w-full capitalize items-center justify-between'>
                                     {item.title}
                                     <span className=' flex self-end'>
-                                        <img src="/assets/navicons/arrowdown.svg" alt="" />
+                                        {item.sub && <img src="/assets/navicons/arrowdown.svg" alt="" />}
                                     </span>
                                 </p>
                             </li>

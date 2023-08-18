@@ -2,38 +2,45 @@ export const links = [
     {
         title: 'dashboard',
         icon: "/assets/navIcons/dashboard.svg",
-        to: "/"
+        to: "/",
+        sub: false
     },
     {
         title: 'wallet',
         icon: "/assets/navIcons/wallet.svg",
-        to: "/wallet"
+        to: "/wallet",
+        sub: false
     },
     
     {
         title: 'employee management',
         icon: "/assets/navIcons/user-plus.svg",
-        to: "/employee"
+        to: "/employee",
+        sub: true
     },
     {
         title: 'payroll',
         icon: "/assets/navIcons/payroll.svg",
-        to: "/payroll"
+        to: "/payroll",
+        sub: true
     },
     {
         title: 'compliance',
         icon: "/assets/navIcons/compliance.svg",
-        to: "/compliance"
+        to: "/compliance",
+        sub: true
     },
     {
         title: 'quick loan',
         icon: "/assets/navIcons/quickloan.svg",
-        to: "/loan"
+        to: "/loan",
+        sub: true
     },
     {
         title: 'book keeping',
         icon: "/assets/navIcons/bookkeeping.svg",
-        to: "/records"
+        to: "/records",
+        sub: true
     }
     
 ]
@@ -42,12 +49,14 @@ export const navFooterLinks = [
     {
         title: 'support',
         icon: "/assets/navIcons/call.svg",
-        to: "/support"
+        to: "/support",
+        sub: false
     },
     {
         title: 'settings',
         icon: "/assets/navIcons/settings.svg",
-        to: "/settings"
+        to: "/settings",
+        sub: true
     },
     
 ]
