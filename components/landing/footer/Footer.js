@@ -75,7 +75,7 @@ const Footer = () => {
                     </ul>
 
                     <div className=' bg-[#f2f1f1] flex border rounded-xl px-3 py-[7px] mt-4'>
-                        <input type="text" placeholder='Your email address' className=' text-xs text-neutral-700 placeholder:text-neutral-600 bg-transparent' />
+                        <input type="text" placeholder='Your email address' className=' outline-none text-xs text-neutral-700 placeholder:text-neutral-600 bg-transparent' />
                         <img src="/assets/footer/send.svg" alt="" className=' w-4' />
                     </div>
                 </div>
