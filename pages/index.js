@@ -10,7 +10,7 @@ export default function Home({children}) {
     <div className=' bg-gray-100 h-full'>
       <Head>
         <title>
-          Eazipay
+          Eazipay - Dashboard
         </title>
       </Head>
 

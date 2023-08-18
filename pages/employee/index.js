@@ -3,11 +3,26 @@ import { employeeData } from '../../components/data'
 import MobileNav from '../../components/mobile/nav/MobileNav'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
+import Layout from '../../components/Layout'
 
 const Employee = () => {
 
     const router = useRouter()
   return (
+    <>
+    <div className=' hidden md:flex'>
+        <Head>
+            <title>
+                Eazipay - Wallet
+            </title>
+        </Head>
+
+        <Layout>
+            <div className='hidden md:flex bg-[#f2f1f1] h-full p-10 lg:px-20 xl:px-32'>
+                Employee
+            </div>
+        </Layout>
+    </div>
     <div className=' md:hidden'>
 
         <Head>
@@ -16,7 +31,7 @@ const Employee = () => {
             </title>
         </Head>
 
-        <div className=' bg-[#11453b] inline-block p-4  rounded-full shadow-lg fixed right-4 top-[50%]'>
+        <div className='md:hidden bg-[#11453b] inline-block p-4  rounded-full shadow-lg fixed right-4 top-[50%]'>
             <img src="/assets/mobile/add.svg" alt="" />
         </div>
 
@@ -95,8 +110,8 @@ const Employee = () => {
                 {
                     employeeData.map((item, index) => (
                         <div key={index} 
-                            style={{backgroundColor: item.isSelected? "#f0f7eb": ''}}
-                            className=' p-3 border-b mb-3 flex justify-between rounded-xl'>
+                        style={{backgroundColor: item.isSelected? "#f0f7eb": ''}}
+                        className=' p-3 border-b mb-3 flex justify-between rounded-xl'>
                             <div className=' flex gap-4'>
                                 <div className=' relative'>
                                     {item.isSelected && <img src='/assets/mobile/toyin.svg' className=' absolute' />}
@@ -121,6 +136,7 @@ const Employee = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
