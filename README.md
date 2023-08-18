@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project [Easipay](https://eazipay-test.vercel.app/) is built with Next Js. A React Js library
 
-## Getting Started
+#### Developer: [Bandele Femi](https://bandelefemi.vercel.app)
 
-First, run the development server:
+## Project Basics
 
-```bash
-npm run dev
-# or
-yarn dev
+Here are the important links:
+
+
+- Homepage / Landing page : https://eazipay-test.vercel.app/home
+- Dashboard : https://eazipay-test.vercel.app
+- Profile : https://eazipay-test.vercel.app/profile
+- Employee : https://eazipay-test.vercel.app/employee
+
+
+```diff
++ kindly note that:
+
+The Landing page is built for desktop (medium screen and large screens) only.
+
+The Dashboard is built for all screens (mobile and web).
+
+While, the Profile and Employee page is built for only mobile screens
+(as seen in the figma prototype)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Libraries used
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Material UI - Charts](https://mui.com) - learn about Next.js features and API.
+- [Tailwind CSS](https://tailwindcss.com/) - an interactive Next.js tutorial.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project was deployed on [Vercel Platform](https://vercel.com)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
