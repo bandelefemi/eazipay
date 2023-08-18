@@ -3,10 +3,13 @@ import Navbar from '../navbar/Navbar'
 
 const Hero = () => {
   return (
-    <div className=' bg-landing-top h-screen bg-cover'>
+    <div className=' relative bg-landing-top h-screen bg-cover'>
             <Navbar />
 
             <div className='flex  flex-col justify-center -mt-16 h-full px-10 lg:px-20'>
+                <div className=' absolute right-0'>
+                    <img src="/assets/landing/heroimg.svg" alt="" className=' h-[450px] ' />
+                </div>
 
                 {/* hero text */}
                 <div className=' text-5xl' style={{ fontFamily: "DM Serif Text"}}>

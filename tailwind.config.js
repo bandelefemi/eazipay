@@ -7,7 +7,7 @@ module.exports = {
       backgroundImage: {
         'logo-pattern': "url('/assets/backgrounds/side-nav.svg')",
         'wallet-bg': "url('/assets/backgrounds/walletbg.svg')",
-        'landing-top': "url('/assets/backgrounds/landingtop.svg')",
+        'landing-top': "url('/assets/backgrounds/gradients.svg')",
         'wave-middle': "url('/assets/backgrounds/wave.svg')",
         'how-it-works': "url('/assets/landing/BG.svg')",
         'free-forever': "url('/assets/landing/free.svg')",
