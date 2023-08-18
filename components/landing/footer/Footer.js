@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className=' flex gap-12'>
+            <div className=' flex gap-6 lg:gap-12'>
                 <div className='site-map'>
                     <p>
                         Product

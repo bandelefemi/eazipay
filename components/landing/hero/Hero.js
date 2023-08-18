@@ -6,7 +6,7 @@ const Hero = () => {
     <div className=' bg-landing-top h-screen bg-cover'>
             <Navbar />
 
-            <div className='flex  flex-col justify-center -mt-16 h-full px-20'>
+            <div className='flex  flex-col justify-center -mt-16 h-full px-10 lg:px-20'>
 
                 {/* hero text */}
                 <div className=' text-5xl' style={{ fontFamily: "DM Serif Text"}}>
