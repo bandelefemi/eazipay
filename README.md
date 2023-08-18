@@ -43,7 +43,7 @@ The project was deployed on [Vercel Platform](https://vercel.com)
 
 #### Should you have any questions?
 
-[Email me](mailto:femzy14@gmail.com)
+[Shoot me a message](https://bandelefemi.vercel.app/#contact)
 
 
 
