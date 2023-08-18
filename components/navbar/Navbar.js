@@ -13,7 +13,7 @@ const Navbar = () => {
 
             <div className='flex items-center cursor-pointer'>
               <div>
-                <img src="/assets/navicons/kalu.png" alt=" profile picture" className='w-[80%] bg-gray-100 rounded-full' />
+                <img src="/assets/navicons/kalu.png" alt=" profile picture" className='w-[80%]' />
               </div>
               <div>
                 <p className='font-semibold'>Kalu Abasiama</p>
