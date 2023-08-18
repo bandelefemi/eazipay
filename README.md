@@ -1,4 +1,4 @@
-This project [Easipay](https://eazipay-test.vercel.app/) is built with Next Js. A React Js library
+This project [Easipay](https://eazipay-test-bandelefemi.netlify.app) is built with Next Js. A React Js library
 
 #### Developer: [Bandele Femi](https://bandelefemi.vercel.app)
 
@@ -7,10 +7,10 @@ This project [Easipay](https://eazipay-test.vercel.app/) is built with Next Js. 
 Here are the important links:
 
 
-- Homepage / Landing page : https://eazipay-test.vercel.app/home
-- Dashboard : https://eazipay-test.vercel.app
-- Profile : https://eazipay-test.vercel.app/profile
-- Employee : https://eazipay-test.vercel.app/employee
+- Homepage / Landing page : https://eazipay-test-bandelefemi.netlify.app/home
+- Dashboard : https://eazipay-test-bandelefemi.netlify.app
+- Profile : https://eazipay-test-bandelefemi.netlify.app/profile
+- Employee : https://eazipay-test-bandelefemi.netlify.app/employee
 - Github repo: https://github.com/bandelefemi/eazipay
 
 
@@ -36,12 +36,12 @@ While, the Profile and Employee page is built for only mobile screens
 
 ### Issues
 ```diff
-- The SVG files on the navbar component does on render on vercel
+
 ```
 
 ## Production
 
-The project was deployed on [Vercel Platform](https://vercel.com)
+The project was deployed on [Netlify Platform](https://netlify.app)
 
 
 #### Should you have any questions?
