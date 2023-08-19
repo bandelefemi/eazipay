@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Cards = () => {
   return (
-    <div className=' bg-wave-middle h-screen bg-cover flex flex-col justify-center -mt-12 items-center'>
+    <div className=' lg:px-20 xl:px-40 bg-wave-middle h-screen bg-cover  flex flex-col justify-center  z-10 -mt-12 lg:-mt-16 items-center'>
             <div >
                 <p className=' text-3xl text-[#11453b]' style={{fontFamily: 'DM Serif Text'}}>
                     For Individuals and Businesses
@@ -18,12 +18,12 @@ const Cards = () => {
             <div className='w-full px-20 mt-10 flex'>
                 {
                     landingCards.map((item, index) => (
-                        <div className='card flex-1  ' 
+                        <div className='card flex-1 p-8 lg:p-10  ' 
                             style={{
                             background: 'radial-gradient(50% 50% at 50% 50%,rgba(217,235,205,.14) 0,rgba(217,235,205,.0266) 100%),#11453b',
                             boxShadow: '0 13px 20px hsla(0,0%,9%,.2), -11px 0 19px hsla(0,0%,9%,.3)',
                             color: '#fff',
-                            padding: '30px',
+                            // padding: '30px',
                             transition: '.45s cubic-bezier(.175,.585,.32,1.2075)',
                             height: ''}
                         }>

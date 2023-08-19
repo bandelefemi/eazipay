@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className=' flex justify-between md:px-10 lg:px-20 py-10 border'>
+    <div className=' flex justify-between md:px-10 lg:px-20 xl:px-40 py-10 border'>
             <div className=' flex flex-col md:gap-4 lg:gap-7'>
                 <div>
                     <img src="/assets/footer/logo-black.svg" alt="" className='h-7' />
@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className=' flex gap-6 lg:gap-12'>
+            <div className=' flex gap-6 lg:gap-12 xl:gap-28'>
                 <div className='site-map'>
                     <p>
                         Product

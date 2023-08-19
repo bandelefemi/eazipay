@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className=' flex px-20 gap-10 h-[100vh] bg-contact-bg bg-cover'>
+    <div className=' flex px-20 lg:px-40 xl:px-52 gap-10 h-[100vh] bg-contact-bg bg-cover'>
 
 
             {/* left text */}
@@ -16,7 +16,7 @@ const Contact = () => {
 
             {/* form */}
             <div className=' flex-1 flex items-center justify-center'>
-                <div className=' bg-white border p-5 shadow-lg w-full flex justify-center flex-col items-center text-center rounded-2xl'>
+                <div className=' bg-white border p-5 shadow-lg w-full xl:w-3/4 flex justify-center flex-col items-center text-center rounded-2xl'>
                     <p className=' text-xl font-semibold text-neutral-600'>
                         First things first
                     </p>

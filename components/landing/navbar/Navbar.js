@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' items-center justify-between flex md:px-10 lg:px-20 py-5'>
+    <div className=' items-center justify-between flex md:px-10 lg:px-20 xl:px-52 py-5'>
         <div className=' flex items-center gap-10'>
             <img src="/assets/logo/logogreen.svg" alt="" className=' cursor-pointer w-24' />
             <ul className=' nav-ul flex capitalize gap-7 text-sm'>
